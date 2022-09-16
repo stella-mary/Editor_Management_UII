@@ -1,0 +1,42 @@
+@import 'antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  background-color: azure;
+}
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1{
+  color: gray;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 3%;
+}
+
+option{
+  width: 50%;
+}
+
+select{
+  width: 100%;
+}
+
+.formCol{
+  margin-left: 40%;
+  text-align: center;
+}
